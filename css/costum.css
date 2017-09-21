@@ -2,6 +2,10 @@ nav{border-radius: 5px!important;margin-top: 20px}
 .left,.right{background: none!important}
 .slayder,header{background-image: url('../img/sliderBg.png')}
 *{list-style-type: none!important}
+/*Claslar*/
+.pb0{padding-bottom: 0px!important}
+/*Claslar*/
+
 /*Bootstrap Reset*/
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.active>a{
     background: none!important;
