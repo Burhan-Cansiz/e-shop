@@ -1,6 +1,6 @@
 nav{border-radius: 5px!important;margin-top: 20px}
 .left,.right{background: none!important}
-.slayder,header{background-image: url('../img/sliderBg.png')}
+.slayder,header{background-image: url('../img/global/sliderBg.png')}
 *{list-style-type: none!important}
 /*Claslar*/
 .pb0{padding-bottom: 0px!important}
@@ -15,3 +15,16 @@ nav a:hover{
     color: #f7e50f!important
 }
 /*Bootstrap Reset*/
+
+.akordiyon{
+    padding: 0!important;
+    border: 1px solid #ededed
+}
+.akordiyon ul{
+    display: none
+}
+.title{
+
+    background: #ededed;
+    cursor: pointer
+}
