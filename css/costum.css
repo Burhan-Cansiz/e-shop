@@ -1,3 +1,7 @@
+::-webkit-scrollbar{width: 7px}
+body{
+    overflow-y: scroll;
+}
 nav{border-radius: 5px!important;margin-top: 20px}
 .left,.right{background: none!important}
 .slayder,header{background-image: url('../img/global/sliderBg.png')}
@@ -27,4 +31,16 @@ nav a:hover{
 
     background: #ededed;
     cursor: pointer
+}
+
+@media screen and (min-width:415px) and (max-width:767px) {
+    .urunBox .i{
+        width: 50%!important;
+        float: left!important;
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+   /*500b 600k*/
 }
