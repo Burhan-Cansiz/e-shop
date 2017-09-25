@@ -52,3 +52,7 @@ nav a:hover{
     }
    /*500b 600k*/
 }
+@media screen and (min-width:768px){
+    .urunBox>div{
+        width: 33%!important;
+}
