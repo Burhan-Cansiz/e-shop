@@ -1,3 +1,9 @@
+/*
+.col-xs- 768px’den küçükse
+.col-sm- 768px ile 991px arasında
+.col-md- 992px ile 1199px arasında
+.col-lg- 1200px eşit ve büyükse
+*/
 ::-webkit-scrollbar{width: 7px}
 body{
     overflow-y: scroll;
@@ -44,13 +50,7 @@ nav a:hover{
 @media screen and (min-width:415px) and (max-width:767px) {
     .urunBox>div{
         width: 50%!important;
-        float: left!important;
-        position: relative;
-        min-height: 1px;
-        padding-left: 15px;
-        padding-right: 15px;
     }
-   /*500b 600k*/
 }
 @media screen and (min-width:768px){
     .urunBox>div{
@@ -59,4 +59,8 @@ nav a:hover{
 @media screen and (min-width:1024px){
     .urunBox>div{
         max-width: 25%!important;
+} 
+@media screen and (min-width:1200px){
+    .urunBox>div{
+        max-width: 20%!important;
 }    
