@@ -5,6 +5,9 @@
 .col-lg- 1200px eşit ve büyükse
 */
 ::-webkit-scrollbar{width: 7px}
+@media screen and (min-width:768px){
+::-webkit-scrollbar{width: 0px!important}
+}
 body{
     overflow-y: scroll;
 }
@@ -57,14 +60,17 @@ nav a:hover{
 @media screen and (min-width:768px){
     .urunBox>div{
         max-width: 33%!important;
+    }
 }
 @media screen and (min-width:1024px){
     .urunBox>div{
         max-width: 25%!important;
-} 
+    } 
+}
 @media screen and (min-width:1200px){
     .urunBox>div{
         max-width: 20%!important;
-} 
+    } 
+}
     
     
