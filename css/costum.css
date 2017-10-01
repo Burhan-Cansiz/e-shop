@@ -5,7 +5,23 @@
 .col-lg- 1200px eşit ve büyükse
 */
 
+@font-face {
+    font-family: 'playregular';
+    src: url('fonts/play-regular-webfont.woff2') format('woff2'),
+         url('fonts/play-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+@font-face {
+    font-family: 'exo';
+    src: url('fonts/exo-regular-webfont.woff2') format('woff2'),
+         url('fonts/exo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 ::-webkit-scrollbar {
   width:  5px;
   height: 5px;
@@ -45,12 +61,14 @@
 ::-webkit-scrollbar{width: 0px!important}
 }
 body{
-    overflow-y: scroll;
+    overflow-y: scroll!important;
+    font-family: exo;
 }
 nav{border-radius: 5px!important;margin-top: 20px}
 .left,.right{background: none!important}
 .slayder,header{background-image: url('../img/global/sliderBg.png')}
 *{list-style-type: none!important}
+
 /*Claslar*/
 .pb0{padding-bottom: 0px!important}
 /*Claslar*/
@@ -64,15 +82,13 @@ nav a:hover{
     color: #f7e50f!important
 }
 .row{
-    margin-left:  -5px;
-    margin-right: -5px;
+    margin-left:  -11px;
+    margin-right: -11px;
 }
 [class^="col-"],.navbar, .navbar-default, .navbar-inverse,.container,.container-fluid{
-    padding-left:  5px!important;
-    padding-right: 5px!important;
+    padding-left:  11px!important;
+    padding-right: 11px!important;
 }
-
-
 /*Bootstrap Reset*/
 
 .akordiyon{
@@ -109,4 +125,24 @@ nav a:hover{
     } 
 }
     
+/* Açılır Menü */
+.acilirMenu{
+    margin-top: -20px;
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+.acilirMenu>div{
+    background: white;
+    padding: 29px 0 0 0
+}
+.acilirMenu .row div{
+    max-width: 20%!important;
+    min-height: 235px
+}
+
+
+/* Açılır Menü */
+
     
