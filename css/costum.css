@@ -81,7 +81,16 @@ nav{border-radius: 5px!important;margin-top: 20px}
 nav a:hover{
     color: #f7e50f!important
 }
-
+/*
+.row{
+    margin-left:  -11px;
+    margin-right: -11px;
+}
+[class^="col-"],.navbar, .navbar-default, .navbar-inverse,.container,.container-fluid{
+    padding-left:  11px!important;
+    padding-right: 11px!important;
+}
+*/    
 /*Bootstrap Reset*/
 
 .akordiyon{
