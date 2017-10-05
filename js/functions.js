@@ -12,6 +12,12 @@ $(function () {
 
         });
     
+
+    $('.title').on('click',function(){
+    $('.akordiyon ul').stop().slideUp();
+        $(this).next('ul').stop().slideToggle();
+    })
     
+   
     
 });
