@@ -163,4 +163,10 @@ nav a:hover{
     
 }
 
+@media screen and (min-width:415px) and (max-width:767px) {
+    .urunDetay .sag,.sol{
+        width: 50%!important;
+    }
+}
+
     
