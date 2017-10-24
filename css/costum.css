@@ -74,6 +74,7 @@ nav{border-radius: 5px!important;margin-top: 20px}
 /*Claslar*/
 
 /*Bootstrap Reset*/
+.carousel-caption{color: black;text-shadow: none}
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.active>a{
     background: none!important;
     box-shadow: none!important
