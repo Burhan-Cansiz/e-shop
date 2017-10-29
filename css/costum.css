@@ -167,6 +167,12 @@ nav a:hover{
     .urunDetay .sag,.sol{
         width: 50%!important;
     }
+    .jumbotron{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
 }
+
 
     
